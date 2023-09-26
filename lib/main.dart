@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       initialRoute: '/',
       routes: {
-        '/': (context) => Home(),
+        '/': (context) => const Home(),
         '/add': (context) => const AddNamePage(),
       },
     );
